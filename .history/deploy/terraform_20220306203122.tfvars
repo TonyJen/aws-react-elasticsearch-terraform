@@ -1,7 +1,0 @@
-default_region      = "us-east-1"
-docker_username     = "matlau"
-github_username     = "MatthewCYLau"
-github_project_name = "aws-react-elasticsearch-terraform"
-app_name            = "aws-elasticsearch-app"
-environment         = "staging"
-upload_bucket_name  = "matlau-s3-es-upload"
