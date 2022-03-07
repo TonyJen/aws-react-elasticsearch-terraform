@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "elasticsearch-app-tf-state"
+    bucket = "elasticsearch-app-tf-state-tjen"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
