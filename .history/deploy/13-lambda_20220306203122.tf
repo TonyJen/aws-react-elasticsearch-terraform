@@ -1,7 +1,7 @@
 resource "aws_lambda_function" "process_es" {
   function_name = "ProcessElasticsearch"
 
-  s3_bucket = "tjen-aws-es-lambda-bucket2"
+  s3_bucket = "matlau-aws-es-lambda-bucket2"
   s3_key    = "v1.0.0/processElasticsearch.zip"
   handler   = "index.handler"
   runtime   = "nodejs10.x"
@@ -63,7 +63,7 @@ resource "aws_lambda_layer_version" "app" {
 resource "aws_lambda_function" "process_s3_upload" {
   function_name = "ProcessS3Upload"
 
-  s3_bucket = "tjen-aws-es-lambda-bucket2"
+  s3_bucket = "matlau-aws-es-lambda-bucket2"
   s3_key    = "v1.0.0/processS3Upload.zip"
   handler   = "index.handler"
   runtime   = "nodejs10.x"

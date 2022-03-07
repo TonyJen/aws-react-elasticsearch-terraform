@@ -6,7 +6,6 @@
         "postinstall": "npm install --prefix client",
         "test": "echo \"Error: no test specified\" && exit 1",
         "test:client": "npm test --prefix client",
-        "deploy": "npm run --prefix client/ build && cd deploy && terraform apply -var-file .env",
         "build": "npm run --prefix client/ build",
         "start": "npm run --prefix client/ start",
         "serve": "node server.js"

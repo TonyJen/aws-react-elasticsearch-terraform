@@ -1,0 +1,7 @@
+default_region      = "us-east-1"
+docker_username     = "TonyJen"
+github_username     = "TonyJen"
+github_project_name = "aws-react-elasticsearch-terraform"
+app_name            = "aws-elasticsearch-app"
+environment         = "staging"
+upload_bucket_name  = "tjen-s3-es-upload"
