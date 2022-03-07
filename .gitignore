@@ -36,3 +36,4 @@ firebase-debug.log*
 *secret.tfvars
 
 *.zip
+deploy/.env
