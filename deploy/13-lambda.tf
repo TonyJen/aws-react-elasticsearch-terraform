@@ -53,7 +53,7 @@ EOF
 
 resource "aws_lambda_layer_version" "app" {
 
-  s3_bucket  = "matlau-aws-es-lambda-bucket2"
+  s3_bucket  = "tjen-aws-es-lambda-bucket2"
   s3_key     = "v1.0.0/layer.zip"
   layer_name = "process-es-layer"
 
